@@ -27,7 +27,6 @@
 </template>
 <script>
 import { mapState, mapActions } from 'vuex';
-// import { clearInterval } from 'timers';
 
 export default {
   props: ['roleJudge'],
@@ -63,7 +62,6 @@ export default {
     },
     submitItem() {
       if (this.choosedNum !== null) {
-        debugger;
         this.addNum(this.choosedId);
         clearInterval(this.timer);
         this.$router.push('score');
