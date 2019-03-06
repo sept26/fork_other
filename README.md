@@ -1,4 +1,4 @@
-# vueme
+# vue_simple
 
 > A Vue.js project
 
